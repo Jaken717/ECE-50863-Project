@@ -1,7 +1,7 @@
 # Phishing Website Detection Using Data Mining Techniques
 
 **Fall 2026 Data Mining Course Project**  
-**Team:** [Member 1] and [Member 2]  
+**Team:** Jinkai Liu and Bryan Zhang  
 **Report deadline:** December 19, 2026, 11:59 PM
 
 ## Project Overview

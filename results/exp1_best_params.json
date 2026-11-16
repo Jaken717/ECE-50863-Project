@@ -1,0 +1,20 @@
+{
+  "Logistic Regression": {
+    "clf__C": 0.01
+  },
+  "Decision Tree": {
+    "criterion": "entropy",
+    "max_depth": 10,
+    "min_samples_leaf": 1
+  },
+  "K-Nearest Neighbors": {
+    "clf__n_neighbors": 11,
+    "clf__weights": "distance"
+  },
+  "Random Forest": {
+    "max_depth": null,
+    "max_features": "log2",
+    "min_samples_leaf": 2,
+    "n_estimators": 300
+  }
+}

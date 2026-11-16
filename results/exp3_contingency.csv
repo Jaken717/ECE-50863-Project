@@ -1,0 +1,5 @@
+cluster,split,Legitimate,Phishing,Total,% phishing
+0,train,3651,2809,6460,43.5
+1,train,733,601,1334,45.1
+0,test,725,592,1317,45.0
+1,test,155,136,291,46.7

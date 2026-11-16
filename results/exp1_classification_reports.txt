@@ -1,0 +1,39 @@
+=== Logistic Regression ===  params: {'clf__C': 0.01}
+              precision    recall  f1-score   support
+
+  legitimate     0.9291    0.9534    0.9411       880
+    phishing     0.9418    0.9121    0.9267       728
+
+    accuracy                         0.9347      1608
+   macro avg     0.9355    0.9327    0.9339      1608
+weighted avg     0.9349    0.9347    0.9346      1608
+
+=== Decision Tree ===  params: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1}
+              precision    recall  f1-score   support
+
+  legitimate     0.9528    0.9409    0.9468       880
+    phishing     0.9296    0.9437    0.9366       728
+
+    accuracy                         0.9422      1608
+   macro avg     0.9412    0.9423    0.9417      1608
+weighted avg     0.9423    0.9422    0.9422      1608
+
+=== K-Nearest Neighbors ===  params: {'clf__n_neighbors': 11, 'clf__weights': 'distance'}
+              precision    recall  f1-score   support
+
+  legitimate     0.9379    0.9443    0.9411       880
+    phishing     0.9321    0.9245    0.9283       728
+
+    accuracy                         0.9353      1608
+   macro avg     0.9350    0.9344    0.9347      1608
+weighted avg     0.9353    0.9353    0.9353      1608
+
+=== Random Forest ===  params: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 2, 'n_estimators': 300}
+              precision    recall  f1-score   support
+
+  legitimate     0.9416    0.9716    0.9564       880
+    phishing     0.9643    0.9272    0.9454       728
+
+    accuracy                         0.9515      1608
+   macro avg     0.9530    0.9494    0.9509      1608
+weighted avg     0.9519    0.9515    0.9514      1608
